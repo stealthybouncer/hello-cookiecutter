@@ -1,8 +1,4 @@
 #ignore data files always. specify folders to include
-{{cookiecutter.project_slug}}/data/*
-!{{cookiecutter.project_slug}}/data/external
-!{{cookiecutter.project_slug}}/data/processed
-!{{cookiecutter.project_slug}}/data/raw
 
 *.py[cod]
 __pycache__/
