@@ -1,8 +1,8 @@
 #ignore data files always. specify folders to include
-/data/*
-!/data/external/
-!/data/processed/
-!/data/raw/
+/data/**
+!/data/external
+!/data/processed
+!/data/raw
 
 *.py[cod]
 __pycache__/
