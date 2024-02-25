@@ -1,0 +1,10 @@
+#ignore data files always. specify folders to include
+/data/*
+!/data/external/
+!/data/processed/
+!/data/raw/
+
+*.py[cod]
+__pycache__/
+*.so
+.env
