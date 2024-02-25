@@ -1,4 +1,8 @@
-#ignore data files always. specify folders to include
+# Ignore data files always. Specify folders to include
+/data/**
+!/data/external/
+!/data/processed/
+!/data/raw/
 
 *.py[cod]
 __pycache__/
