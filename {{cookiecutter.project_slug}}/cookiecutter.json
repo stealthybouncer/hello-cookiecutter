@@ -1,0 +1,9 @@
+{
+    "project_slug": "data_analysis_project",
+    "project_name": "Data Analysis Project",
+    "author_name": "Your Name",
+    "version": "0.1.0",
+    "description": "A short description of the project",
+    "open_source_license": ["MIT", "BSD-3-Clause", "No license file"]
+  }
+  
