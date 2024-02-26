@@ -1,0 +1,17 @@
+
+# Exclude all files and directories inside the "data" directory
+/data/**/*
+
+
+#use to include empty
+!**.gitkeep
+
+# Include the specific subdirectories
+!/data/external/
+!/data/processed/
+!/data/raw/
+
+*.py[cod]
+__pycache__/
+*.so
+.env
