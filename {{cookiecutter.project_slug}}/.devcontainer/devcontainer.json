@@ -1,6 +1,6 @@
+//source - https://github.com/stealthybouncer/vscode-remote-try-python/blob/main/.devcontainer/devcontainer.json
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/python
-//copied from - https://github.com/stealthybouncer/vscode-remote-try-python/blob/main/.devcontainer/devcontainer.json
 {
 	"name": "Python 3",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
@@ -37,4 +37,11 @@
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
+
+    ,"mounts":
+    [
+        "source={{cookiecutter.project_docker_mount_source}},target={{cookiecutter.project_docker_mount_target}},type=volume,consistency=cached"
+        ,"source={{cookiecutter.project_docker_bind_input_source}},target={{cookiecutter.project_docker_bind_input_target}},type=bind,consistency=cached"
+        ,"source={{cookiecutter.project_docker_bind_output_source}},target={{cookiecutter.project_docker_bind_output_target}},type=bind,consistency=cached"
+    ]
 }

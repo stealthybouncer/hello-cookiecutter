@@ -4,6 +4,12 @@
     "author_name": "Your Name",
     "version": "0.1.0",
     "description": "A short description of the project",
-    "open_source_license": ["MIT", "BSD-3-Clause", "No license file"]
-  }
+    "open_source_license": ["MIT", "BSD-3-Clause", "No license file"],
+    "project_docker_mount_source": "dind-var-lib-docker",
+    "project_docker_mount_target": "var-lib-docker",
+    "project_docker_bind_input_source": "~/input_data/",
+    "project_docker_bind_input_target": "input/",
+    "project_docker_bind_output_source": "~/output_data/",
+    "project_docker_bind_output_target": "output/"
+}
   
