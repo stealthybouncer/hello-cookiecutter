@@ -9,4 +9,4 @@ app = FastAPI()
 
 @app.get("/")
 def hello():
-    return app.send_static_file("index.html")   
+    return app.send_static_file("index.html")
