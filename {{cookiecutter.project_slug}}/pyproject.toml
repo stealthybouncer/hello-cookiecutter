@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "{{cookiecutter.project_slug}}"
+version = "0.1.0"
+description = "{{cookiecutter.project_description}}"
+authors = ["{{cookiecutter.author_name}} <{{cookiecutter.author_email}}>"]
+license = "{{cookiecutter.license}}"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.25.1"
+pandas = "^1.2.3"
+numpy = "^1.20.1"
+matplotlib = "^3.3.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.2"

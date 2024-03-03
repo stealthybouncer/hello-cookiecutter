@@ -1,3 +1,5 @@
+poetry
+fastapi
 numpy
 pandas
 matplotlib
